@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    padding: 20px;
+}
+.container a{
+    color:#141313;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+}
+.container .section{
+    width: 90%;
+    max-width: 900px;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 20px auto;
+    padding:20px  40px;
+    background: rgba(255,255,255,.15);
+    border: 1px solid transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0,00,0,.1);
+}
+.container .section:hover{
+    background: rgba(255,255,255,.45);
+    border: 1px solid white;
+}
+.container img{
+    border-radius: 8px;
+    margin: 10px 20px;
+    object-fit: cover;
+    
+}
+.shopDetails{
+    padding: 20px 40px;
+
+}
+.shopDetails h1{
+    color: var(--blue);
+}
+.shopDetails h4{
+    color: #111;
+    margin: 10px 0;
+}
+.shopDetails p{
+    color: #444;
+}
+.shopDetails .likes{
+    color: tomato;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.shopDetails button{
+    padding: 10px 25px;
+    border: none;
+    font-weight: 700;
+    border-radius: 8px;
+    color: var(--blue);
+    border: 1px solid;
+    cursor: pointer;
+    background: white;
+}
+@media(min-width : 900px){
+    .container .section{
+
+        flex-direction: row;
+    }
+}
+
+@media(max-width : 768px){
+    .container .shopDetails{
+        padding: 10px 5px;
+    }
+}

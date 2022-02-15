@@ -1,0 +1,45 @@
+.container {
+  padding: 4rem 4rem 2rem;
+  /* background: url("/public/hero.jpg") center center/cover; */
+}
+.container h1 {
+  font-size: 4em;
+  color: #08001f;
+}
+.container h1 span {
+  color: white;
+}
+.container p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.container button {
+  padding: 20px 45px;
+  font-size: 1rem;
+  background: var(--blue);
+  color: #fff;
+  cursor: pointer;
+  margin: 20px auto;
+  border: 1px solid transparent;
+}
+.container button:focus {
+  border: 1px dotted white;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem;
+    height: 40%;
+    padding-top: 5rem;
+    /* background: url("/public/hero.jpg") center center/cover; */
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+  .container button {
+    padding: 10px 15px;
+  }
+}

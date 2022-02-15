@@ -1,0 +1,15 @@
+.main{
+    position:fixed;
+    top : 0;
+    left:0;
+    height:100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    color: var(--blue);
+   }
+.main h4{
+    backdrop-filter: blur(8px);
+    height : 100%;
+    width : 100%;
+}
